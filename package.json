@@ -19,31 +19,15 @@
         "color": "#4F87FF",
         "theme": "light"
     },
-    "dependencies": {},
-    "devDependencies": {
-        "vscode": "^1.1.37",
-        "gulp": "~4.0.2",
-        "gulp-cli": "~2.2.1",
-        "gulp-strip-json-comments": "~4.0.1",
-        "gulp-rename": "~2.0.0",
-        "gulp-jsbeautifier": "~3.0.1"
-    },
-    "extensionDependencies": [],
-    "isAMD": false,
-    "scripts": {
-        "build": "./node_modules/.bin/gulp",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "usage": "node ./src/tool/gene-keybind-markdown.js"
-    },
     "icon": "index.png",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/kasecato/vscode-intellij-idea-keybindings"
+        "url": "https://github.com/tonyben1991/vscode-intellij-idea-keybindings"
     },
-    "homepage": "https://github.com/kasecato/vscode-intellij-idea-keybindings#readme",
+    "homepage": "https://github.com/tonyben1991/vscode-intellij-idea-keybindings#readme",
     "bugs": {
-        "url": "https://github.com/kasecato/vscode-intellij-idea-keybindings/issues"
+        "url": "https://github.com/tonyben1991/vscode-intellij-idea-keybindings/issues"
     },
     "contributes": {
         "keybindings": [
@@ -1094,5 +1078,21 @@
                 "intellij": "Go: Test Previous"
             }
         ]
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "vscode": "^1.1.37",
+        "gulp": "~4.0.2",
+        "gulp-cli": "~2.2.1",
+        "gulp-strip-json-comments": "~4.0.1",
+        "gulp-rename": "~2.0.0",
+        "gulp-jsbeautifier": "~3.0.1"
+    },
+    "extensionDependencies": [],
+    "isAMD": false,
+    "scripts": {
+        "build": "./node_modules/.bin/gulp",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "usage": "node ./src/tool/gene-keybind-markdown.js"
     }
 }
